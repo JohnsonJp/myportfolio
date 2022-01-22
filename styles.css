@@ -241,7 +241,7 @@ h3{
 .certificate{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 50px;
     color: #cecece;
 }
@@ -370,5 +370,8 @@ h3{
     }
     .side-section{
         grid-gap: 0;
+    }
+    .project .date{
+        top: 30px;
     }
 }
