@@ -241,7 +241,7 @@ h3{
 .certificate{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
     color: #cecece;
 }
@@ -356,6 +356,9 @@ h3{
     .education{
         flex-direction: columna;
         align-items: flex-start;
+    }
+    h1{
+        font-size: 30;
     }
     .header-details,.main-skill-container,.body-container{
         padding: 20px;
